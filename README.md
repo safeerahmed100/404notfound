@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/safeerahmed100})
+- Website [your-website.com](https://frolicking-concha-8fca94.netlify.app)
+- GitHub [@your-username](https://{github.com/safeerahmed100)
 
