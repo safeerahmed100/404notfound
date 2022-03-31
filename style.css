@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    position: relative;
+}
+#logo h1{
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    position: absolute;
+    top: 40px;
+    left: 77px;
+}
+.left{
+    position: relative;
+}
+
+.left img{
+    width: 540px;
+    height: 447px;
+    position:absolute;
+    left: 77px;
+    top: 265px   
+}
+
+.right{
+    position: relative;
+    font-family: 'Space Mono';
+}
+
+.right h1{
+    position: absolute;
+    top: 265px;
+    left: 700px;
+    line-height: 94.78px;
+    font-size: 56px;
+    color: #333333;
+
+}
+
+.right p{
+    position: absolute;
+    left: 700px;
+    top: 491px;
+    width: 381px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35.54px;
+    color: #4F4F4F;
+
+}
+
+button{
+    width: 216px;
+    height: 68px;
+    position: absolute;
+    top:663px;
+    left: 700px;
+    background: #333333;
+    color: white;
+
+}
+.footer{
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    top: 1039px;
+    left: 530px;
+    bottom: 24px;
+    color: #BDBDBD;
+
+    font-family: 'Montserrat';
+}
+
+
+@media  screen and (max-width:400px) {
+    
+    #logo h1{
+        top:20px;
+        left: 24px; 
+      }
+
+    .left img{
+        width: 286px;
+        height: 238px;
+        left: 44px;
+        top:109px;
+    }
+    .right h1{
+        left: 24px;
+        top: 407px;
+        width: 350px;
+        font-size: 40px;
+        letter-spacing: 3.5%;
+        line-height: 70px;
+    }
+
+    .right p{
+        left: 24px;
+        top: 579px;
+        width: 328px;
+        height: 81px;
+        font-size: 16px;
+    }
+    
+button{
+    left: 24px;
+    top: 726px;
+    width: 216px;
+    border: none;
+}
+.footer p{
+    top: 908px;
+    left: 48px;
+}
+a{
+    color:#BDBDBD;
+    
+}
+}
